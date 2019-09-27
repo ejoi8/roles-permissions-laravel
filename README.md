@@ -40,13 +40,13 @@ That's it, you have added new resource controller which have full access control
  ### auth:permission command
  This command can be user to add or remove permission for a given model
  
- ```bash
-## add permission
-php artisan auth:permission Comment
+    bash
+    ## add permission
+    php artisan auth:permission Comment
 
-## remove permissions
-php artisan auth:permission Comment --remove
-```
+    ## remove permissions
+    php artisan auth:permission Comment --remove
+
 
 ### Author
 Created by [QCode.in](http://www.qcode.in)
